@@ -1,0 +1,7 @@
+{
+    "project_name": "My Neuroimaging Project",
+    "project_slug": "my_neuroimaging_project",
+    "author_name": "Ali Tafakkor",
+    "modality": ["fMRI", "EEG"],
+    "use_datalad": "yes"
+}
