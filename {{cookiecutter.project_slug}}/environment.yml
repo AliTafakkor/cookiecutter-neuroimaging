@@ -1,0 +1,10 @@
+name: {{ cookiecutter.project_slug }}
+dependencies:
+  - python=3.10
+  - nibabel
+  - nilearn
+  - jupyter
+  - pip
+{% if cookiecutter.modality == "EEG" %}
+  - mne
+{% endif %}
