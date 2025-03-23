@@ -9,6 +9,7 @@ dependencies:
   - nilearn
   - jupyter
   - pip
+  - matplotlib
 {% if cookiecutter.modality == "EEG" %}
   - mne
 {% endif %}
